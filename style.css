@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    border: 0;
+    background: url('/images/bg-game6.jpg');
+    background-size: 110rem;
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+/* .full-container {
+    display: inline-block;
+    background: #18181857;
+    height: 100vh;
+    width: 100vw;
+} */
+
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    /* background-color: aqua; */
+    width: auto;
+    background-color: #00000033;
+}
+
+#rock {
+    background-image: url("/images/fist.png");
+    background-size: 4rem;
+    background-position: 2.25rem;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    background-color: #00000033;
+}
+
+#paper {
+    background-image: url("/images/hello.png");
+    background-size: 4rem;
+    background-position: 2.25rem;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+    background-color: #00000033;
+}
+
+#scissor {
+    background-image: url("/images/hand-gesture.png");
+    background-size: 4rem;
+    background-position: 2rem;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #00000033;
+}
+
+.main-box {
+    background-size: 7rem;
+    background-position: 3rem;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: 0.3rem solid black;
+    background-color: #00000041;
+}
+
+.main-box1 {
+    background-size: 7rem;
+    background-position: 3rem;
+    /* background-color: pink; */
+    background-repeat: no-repeat;
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: 0.3rem solid black;
+    background-color: #00000041;
+}
+
+#vs {
+    text-align: center;
+    font-size: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.choice-paper {
+    background-image: url("/images/hello.png");
+}
+
+.choice-scissors{
+    background-image: url("/images/hand-gesture.png");
+}
+
+.choice-rock{
+    background-image: url("/images/fist.png");
+}
+
+.light:hover {
+    outline: 0.2rem solid black;
+    outline-offset: -0.2rem;
+}
+
+.score-counter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: #00000033;
+    color: #C0C0C0;
+}
+
+.pc {
+    display: inline-block;
+    width: 6rem;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-left: 2rem;
+    border: 0.1rem solid black;
+    background-color: #00000033;
+}
+
+.player {
+    display: inline-block;
+    width: 6rem;
+    font-size: 1.75rem;
+    text-align: center;
+    border: 0.1rem solid black;
+    background-color: #00000033;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: auto;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.result-container {
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    background-color: #00000033;
+}
+
+.icon-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    /* background-color: aqua; */
+    width: auto;
+    background-color: #00000033;
+}
+
+h1{
+    /* background-color: #242424; */
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 0;
+    border: 0;
+    color: #000;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #00000033;
+}
